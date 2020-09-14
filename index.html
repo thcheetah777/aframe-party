@@ -10,6 +10,31 @@
     <link rel="manifest" href="/site.webmanifest">
   </head>
   <body>
+    <a-scene>
+      <a-assets>
+        <audio id="party" src="party.mp3"></audio>
+      </a-assets>
+      <a-box position="0 1.5 -5" color="#4CC3D9" animation="property: object3D.position.y; to: -1; dir: alternate; dur: 550; loop: true" scale="1 1 1"></a-box>
+      <a-box position="3 1.5 -5" color="#4CC3D9" animation="property: object3D.position.y; to: -1; dir: alternate; dur: 600; loop: true" scale="1 1 1" scale="1 1 1"></a-box>
+      <a-box position="6 1.5 -5" color="#4CC3D9" animation="property: object3D.position.y; to: -1; dir: alternate; dur: 650; loop: true" scale="1 1 1"></a-box>
+      <a-box position="0 1.5 -10" color="#4CC3D9" animation="property: object3D.position.y; to: -1; dir: alternate; dur: 550; loop: true" scale="1 1 1"></a-box>
+      <a-box position="3 1.5 -10" color="#4CC3D9" animation="property: object3D.position.y; to: -1; dir: alternate; dur: 600; loop: true" scale="1 1 1"></a-box>
+      <a-box position="6 1.5 -10" color="#4CC3D9" animation="property: object3D.position.y; to: -1; dir: alternate; dur: 650; loop: true" scale="1 1 1"></a-box>
+      <a-box position="0 1.5 -15" color="#4CC3D9" animation="property: object3D.position.y; to: -1; dir: alternate; dur: 550; loop: true" scale="1 1 1"></a-box>
+      <a-box position="3 1.5 -15" color="#4CC3D9" animation="property: object3D.position.y; to: -1; dir: alternate; dur: 600; loop: true" scale="1 1 1"></a-box>
+      <a-box position="6 1.5 -15" color="#4CC3D9" animation="property: object3D.position.y; to: -1; dir: alternate; dur: 650; loop: true" scale="1 1 1"></a-box>
+      <a-cone position="6 2.25 -5" scale="0.5 0.5 0.5" animation="property: object3D.position.y; to: -0.2; dir: alternate; dur: 650; loop: true" color="#ff8787"></a-cone>
+      <a-cone position="3 2.25 -5" scale="0.5 0.5 0.5" animation="property: object3D.position.y; to: -0.2; dir: alternate; dur: 600; loop: true" color="#ff8787"></a-cone>
+      <a-cone position="0 2.25 -5" scale="0.5 0.5 0.5" animation="property: object3D.position.y; to: -0.2; dir: alternate; dur: 550; loop: true" color="#ff8787"></a-cone>
+      <a-cone position="6 2.25 -10" scale="0.5 0.5 0.5" animation="property: object3D.position.y; to: -0.2; dir: alternate; dur: 650; loop: true" color="#ff8787"></a-cone>
+      <a-cone position="3 2.25 -10" scale="0.5 0.5 0.5" animation="property: object3D.position.y; to: -0.2; dir: alternate; dur: 600; loop: true" color="#ff8787"></a-cone>
+      <a-cone position="0 2.25 -10" scale="0.5 0.5 0.5" animation="property: object3D.position.y; to: -0.2; dir: alternate; dur: 550; loop: true" color="#ff8787"></a-cone>
+      <a-cone position="6 2.25 -15" scale="0.5 0.5 0.5" animation="property: object3D.position.y; to: -0.2; dir: alternate; dur: 650; loop: true" color="#ff8787"></a-cone>
+      <a-cone position="3 2.25 -15" scale="0.5 0.5 0.5" animation="property: object3D.position.y; to: -0.2; dir: alternate; dur: 600; loop: true" color="#ff8787"></a-cone>
+      <a-cone position="0 2.25 -15" scale="0.5 0.5 0.5" animation="property: object3D.position.y; to: -0.2; dir: alternate; dur: 550; loop: true" color="#ff8787"></a-cone>
+      <a-sound src="#party" autoplay="true" loop="true"></a-sound>
+      <a-plane position="3 -1.5 -10" rotation="-90 0 0" width="10" height="13" color="#00e622"></a-plane>
+      <a-sky color="#adc5ff"></a-sky>
     </a-scene>
   </body>
 </html>
